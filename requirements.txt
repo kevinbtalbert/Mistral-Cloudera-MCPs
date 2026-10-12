@@ -1,0 +1,10 @@
+# Versions verified against the live Cloudera AI deployment.
+#
+# fastmcp 4.x / mcp 2.x negotiate current MCP protocol versions on initialize.
+# fastmcp 2.x only replies 2025-03-26, which many hosted MCP clients reject.
+fastmcp==4.0.0
+mcp==2.1.1
+impyla==0.24.0
+python-dotenv==1.2.3
+starlette==1.6.0
+uvicorn==0.52.4
